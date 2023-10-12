@@ -1,4 +1,5 @@
 # Function to compress data with a variable compression level 'A' (0-255)
+#Author Jurijus Pacalovas 
 def compress_data(data, level):
     compressed_data = bytearray()
     count = 0
